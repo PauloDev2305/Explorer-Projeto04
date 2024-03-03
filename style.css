@@ -53,13 +53,13 @@ footer {
 
 footer p {
   font-size: 14px;
+  color: #FFF;
 }
 
 #line {
   margin: 0 auto 27px;
   border: 1px solid #00BFA6;
   width: 568px;
-  color: #FFF;
 }
 
 #padlock {
