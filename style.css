@@ -1,9 +1,70 @@
 body {
+  min-height: 100vh;
   margin: 0;
+  background: #2F2E41;
+
 }
 
 #page {
-  background: #2F2E41;
-  padding: 71px 98px 23px 89px;
+  padding: 50px 98px 23px 80px;
+  font-family: "JetBrains Mono", monospace;
+}
 
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header ul {
+  display: flex;
+  gap: 64px;
+  color: #fff;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 80px 0 120px 0;
+}
+
+#text h1 {
+  color: #FFF;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+#text span {
+  color: #00BFA6;
+}
+
+#text p {
+  text-align: center;
+  color: #C2C2C2;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#line {
+  margin: 0 auto 27px;
+  border: 1px solid #00BFA6;
+  width: 568px;
+  color: #FFF;
+}
+
+#padlock {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 20px 20px;
 }
